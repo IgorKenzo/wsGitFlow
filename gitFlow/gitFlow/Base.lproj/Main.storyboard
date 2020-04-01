@@ -24,6 +24,9 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="n57-pz-JLv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UlK-FP-xup"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
