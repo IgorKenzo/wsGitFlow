@@ -16,6 +16,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
 
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Glauber" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAR-Sl-Qz1">
+                                <rect key="frame" x="176" y="211" width="61" height="21"/>
+
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Felipe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vIy-tL-H93">
                                 <rect key="frame" x="41" y="119" width="46" height="21"/>
 
@@ -35,11 +38,13 @@
                             </label>
                         </subviews>
 
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+
 
                         <constraints>
                             <constraint firstItem="n57-pz-JLv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UlK-FP-xup"/>
                         </constraints>
+
 
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -54,7 +59,7 @@
                 </label>
             </objects>
 
-            <point key="canvasLocation" x="139" y="117"/>
+            <point key="canvasLocation" x="139" y="96"/>
 
         </scene>
     </scenes>
